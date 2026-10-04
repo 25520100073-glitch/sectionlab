@@ -49,3 +49,7 @@
 [2026-10-04 11:27] [INSPECTOR] Nghiệm thu T2.7 đạt PASS (3/3 benchmark AS 3600:2018 khớp giải tay, ruff clean) -> bàn giao cho [WORKER] thực hiện task cuối cùng của Giai đoạn 2: T2.8 (Tích hợp benchmark BTCT vào CLI và hoàn thiện export package `rc`, `codes`).
 [2026-10-04 11:30] [WORKER] Hoàn thành T2.8 (tích hợp 6 bài benchmark BTCT RC01-RC06 vào CLI và benchmarks.py, hoàn thiện __init__.py cho `rc` và `codes`) -> bàn giao cho [INSPECTOR]. Lưu ý: toàn bộ 93 tests pass 100%, coverage 92%.
 [2026-10-04 11:31] [INSPECTOR] Nghiệm thu T2.8 đạt PASS. HOÀN THÀNH 100% GIAI ĐOẠN 2 (Lõi BTCT phi tuyến & Quy chuẩn cắm rời TCVN 5574:2018 / AS 3600:2018: 8/8 task, 93 test pass trong 1.65s, coverage 92%, ruff clean) -> bàn giao cho [HUMAN] nghiệm thu Giai đoạn 2 và duyệt chuyển sang Giai đoạn 3.
+[2026-10-04 22:30] [PLANNER] Soạn thảo .team/TASK.md cho Phase 0 (Foundation) gồm 4 task độc lập -> bàn giao cho [WORKER]. Lưu ý: bắt đầu thực hiện task T0.1.
+[2026-10-04 22:34] [WORKER] Hoàn thành T0.1 (.gitignore xác thực PASS) và T0.2 (khởi tạo pyproject.toml, package sectionlab, cài pip install -e . thành công) -> bàn giao cho [WORKER]/[INSPECTOR]. Lưu ý: sẵn sàng cho T0.3.
+[2026-10-04 22:35] [WORKER] Hoàn thành T0.3 (CI workflow .github/workflows/ci.yml) và T0.4 (README.md tiếng Anh chuẩn SPEC) -> bàn giao cho [INSPECTOR]. Lưu ý: sẵn sàng nghiệm thu toàn bộ Phase 0.
+[2026-10-04 22:38] [INSPECTOR] Nghiệm thu toàn bộ Phase 0 (T0.1 - T0.4) đạt ALL PASS, cập nhật STATUS sang phase: DONE -> bàn giao cho [HUMAN] duyệt trước khi sang giai đoạn tiếp theo.
